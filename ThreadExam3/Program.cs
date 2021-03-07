@@ -12,8 +12,8 @@ namespace ThreadExam3
 
         public Program()
         {
-            AddNumbers sumDelegateOne = Add;
-            var Result = sumDelegateOne.Invoke(1, 2);
+            AddNumbers SumDelegateOne = Add;
+            var Result = SumDelegateOne.Invoke(1, 2);
         }
         int Add(int num1, int num2)
         {
